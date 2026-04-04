@@ -1,0 +1,572 @@
+{
+  "business": {
+    "name": "Horizon Tree Service",
+    "phone": "555-tre-r90",
+    "category": "tree-service",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "tree-service-trust-navy",
+      "categoryGroup": "tree-service",
+      "name": "Trust Navy",
+      "recipeFile": "tree-service/trust-navy.astro",
+      "colors": {
+        "primary": "#166534",
+        "primaryDark": "#052E16",
+        "primaryLight": "#c5d9cc",
+        "secondary": "#13562c",
+        "accent": "#84CC16",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#166534",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Merriweather",
+        "headingWeight": "700",
+        "bodyFont": "Open Sans",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "tree-service/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Charlotte's Trusted Tree Care Experts",
+      "heroSubline": "Horizon Tree Service keeps your property safe and beautiful. Serving Huntersville to Gastonia with local expertise since 2012.",
+      "aboutTitle": "Rooted in Charlotte",
+      "aboutText": [
+        "Founded in 2012, Horizon Tree Service grew from a single truck operation to Charlotte's most reliable tree care team. We've cared for everything from Myers Park's historic oaks to Ballantyne's new construction landscapes.",
+        "Our approach blends technical precision with environmental awareness. We understand how red clay soil affects root systems and how Carolina storms impact tree health.",
+        "When not trimming branches, our crew volunteers with Charlotte's tree canopy initiative and teaches pruning workshops at Freedom Park."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Knowledge",
+          "description": "We know which species thrive in Charlotte's climate and how to protect your foundation from invasive roots."
+        },
+        {
+          "title": "Storm Ready",
+          "description": "Our team is trained to handle ice storm damage and hurricane prep for your property."
+        },
+        {
+          "title": "Neighborhood Specialists",
+          "description": "From Dilworth's mature magnolias to NoDa's compact lots, we adapt to each area's unique needs."
+        },
+        {
+          "title": "Clay Soil Experts",
+          "description": "We've mastered techniques for planting and maintaining trees in Charlotte's challenging red clay."
+        }
+      ],
+      "ctaHeadline": "Need Emergency Tree Service?",
+      "ctaSubline": "Our 24/7 storm response team can be at your Charlotte-area property within 2 hours."
+    },
+    "services": [
+      {
+        "slug": "tree-removal",
+        "name": "Tree Removal",
+        "shortDescription": "Safe, efficient removal of hazardous or unwanted trees in tight Charlotte spaces.",
+        "description": "Charlotte's rapid growth means we frequently remove trees threatening foundations or power lines in established neighborhoods. Our crane-assisted techniques protect your property while clearing space for new construction or landscaping.\n\nWe specialize in working with Charlotte's red clay soil conditions, ensuring complete stump grinding and proper site leveling. For historic districts like Myers Park, we use rigging systems that preserve surrounding landscapes.\n\nCommon reasons for removal include storm-damaged trees in Concord, diseased oaks in Dilworth, and construction clearing in Fort Mill's new developments. Every job includes debris removal and optional wood recycling.",
+        "process": [
+          "Step 1: Free assessment of tree health and fall risks",
+          "Step 2: Permitting assistance for Charlotte protected species",
+          "Step 3: Precision cutting with protective ground mats",
+          "Step 4: Complete cleanup and optional stump grinding"
+        ],
+        "benefits": [
+          "Prevents foundation damage from invasive roots",
+          "Reduces storm risk to your property",
+          "Creates space for new landscaping",
+          "Improves sunlight for remaining plants"
+        ],
+        "faq": [
+          {
+            "question": "How do you protect my lawn during removal?",
+            "answer": "We use specialized mats to prevent damage to Charlotte's delicate clay soils and grade the area post-removal to prevent erosion."
+          },
+          {
+            "question": "Can you remove trees near power lines?",
+            "answer": "Our certified arborists coordinate with Duke Energy when working near utilities in Huntersville and Matthews."
+          }
+        ]
+      },
+      {
+        "slug": "storm-damage-cleanup",
+        "name": "Storm Damage Cleanup",
+        "shortDescription": "24/7 emergency response for hurricane and ice storm damage across Mecklenburg County.",
+        "description": "When Carolina thunderstorms knock down limbs or ice storms split trees, our rapid response teams deploy across Charlotte with specialized equipment. We prioritize safety hazards first - clearing driveways in Ballantyne, removing hanging branches in South End, and securing damaged trees near schools.\n\nOur crews understand how Charlotte's mix of mature and newly planted trees react differently to severe weather. We work directly with insurance companies for claims in Gastonia and Concord, documenting all damage thoroughly.\n\nBeyond immediate cleanup, we assess remaining trees for hidden storm stress that could lead to future problems during next season's storms.",
+        "process": [
+          "Step 1: Emergency dispatch assessment",
+          "Step 2: Hazardous limb stabilization",
+          "Step 3: Systematic debris removal",
+          "Step 4: Post-storm tree health evaluation"
+        ],
+        "benefits": [
+          "Prevents secondary property damage",
+          "Restores access to your home",
+          "Identifies hidden tree stress",
+          "Works directly with insurance"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you respond after a storm?",
+            "answer": "Our Charlotte-based team typically reaches most locations within 2 hours for critical hazards."
+          },
+          {
+            "question": "Do you handle insurance claims?",
+            "answer": "Yes, we provide detailed documentation and work directly with adjusters throughout Mecklenburg County."
+          }
+        ]
+      },
+      {
+        "slug": "tree-pruning",
+        "name": "Professional Tree Pruning",
+        "shortDescription": "Health-focused pruning for Charlotte's signature oaks, magnolias, and crepe myrtles.",
+        "description": "Proper pruning extends the life of Charlotte's trees while maintaining their natural beauty. Our techniques vary for different species - from the crepe myrtles in NoDa to the heritage oaks in Myers Park.\n\nWe follow ANSI standards while accounting for local factors like frequent summer thunderstorms that can exploit poor cuts. Crown thinning improves airflow to reduce disease in our humid climate, while careful reduction pruning helps young trees in Fort Mill developments withstand high winds.\n\nSeasonal timing matters in our region - we avoid heavy pruning during active beetle seasons and schedule oak work for winter months to prevent disease transmission.",
+        "process": [
+          "Step 1: Species-specific health assessment",
+          "Step 2: Structural pruning plan development",
+          "Step 3: Precision cutting with sterilized tools",
+          "Step 4: Nutrient application for stressed trees"
+        ],
+        "benefits": [
+          "Reduces storm damage risk",
+          "Improves flowering for ornamentals",
+          "Prevents disease spread",
+          "Maintains property sight lines"
+        ],
+        "faq": [
+          {
+            "question": "When should I prune my Charlotte trees?",
+            "answer": "Most pruning occurs in winter, but timing varies by species - we'll create a schedule tailored to your landscape."
+          },
+          {
+            "question": "How much should be removed at once?",
+            "answer": "We never remove more than 25% of canopy to avoid stressing trees in our hot summers."
+          }
+        ]
+      },
+      {
+        "slug": "stump-grinding",
+        "name": "Stump Grinding",
+        "shortDescription": "Complete stump removal that prepares Charlotte's clay soil for replanting or landscaping.",
+        "description": "Leftover stumps aren't just eyesores - in Charlotte's clay soil, they can hinder drainage and attract pests. Our industrial grinders pulverize stumps 12+ inches below grade, allowing for proper grading and new plantings.\n\nWe handle everything from small residential stumps in Matthews to large oak remnants in Dilworth. The process includes thorough cleanup of all wood chips (which we can leave for mulch if desired) and soil leveling to prevent tripping hazards.\n\nFor properties in Huntersville and Concord's newer developments, we often grind multiple stumps simultaneously to prepare entire lots for landscaping. Our equipment causes minimal disturbance to surrounding hardscapes.",
+        "process": [
+          "Step 1: Underground utility marking",
+          "Step 2: Precision grinding depth selection",
+          "Step 3: Complete debris removal",
+          "Step 4: Site leveling and soil amendment"
+        ],
+        "benefits": [
+          "Eliminates tripping hazards",
+          "Prevents termite infestations",
+          "Allows for new plantings",
+          "Improves drainage in clay soils"
+        ],
+        "faq": [
+          {
+            "question": "How deep do you grind stumps?",
+            "answer": "Typically 12-18 inches below grade - deep enough to prevent regrowth while allowing for new landscaping."
+          },
+          {
+            "question": "Can you grind stumps near foundations?",
+            "answer": "Yes, our compact equipment safely works within inches of structures common in Charlotte's older neighborhoods."
+          }
+        ]
+      },
+      {
+        "slug": "tree-planting",
+        "name": "Tree Planting",
+        "shortDescription": "Right tree, right place - species selected for Charlotte's climate and soil conditions.",
+        "description": "Successful tree planting in Charlotte requires understanding our unique red clay soil and weather patterns. We select species that thrive in our heat and humidity while avoiding invasive roots that damage foundations.\n\nOur process begins with site analysis - evaluating sunlight exposure in South End's compact lots, drainage in Ballantyne's clay-heavy soils, and mature size considerations for Fort Mill's narrower streets. We source quality specimens from regional nurseries and provide detailed care instructions.\n\nPost-planting, we offer maintenance packages to help young trees survive Charlotte's stressful summer droughts and occasional winter ice events. Proper staking and mulching techniques prevent common establishment problems.",
+        "process": [
+          "Step 1: Site evaluation and species selection",
+          "Step 2: Proper hole preparation in clay soil",
+          "Step 3: Careful root ball handling",
+          "Step 4: Mulching and initial watering"
+        ],
+        "benefits": [
+          "Increases property value",
+          "Provides summer shade",
+          "Reduces erosion on slopes",
+          "Supports local ecosystem"
+        ],
+        "faq": [
+          {
+            "question": "What trees grow best in Charlotte?",
+            "answer": "We recommend native species like red maple and willow oak that adapt well to our clay soil and climate extremes."
+          },
+          {
+            "question": "When is the best planting time?",
+            "answer": "Fall planting gives trees time to establish roots before our summer heat, but we plant year-round with proper care."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-tree-services",
+        "name": "Emergency Tree Services",
+        "shortDescription": "24/7 response for fallen trees and hazardous limbs across Mecklenburg County.",
+        "description": "When storms hit Charlotte, Horizon Tree Service is the first call for downed trees blocking driveways in Myers Park or threatening roofs in Gastonia. Our emergency crews deploy with specialized equipment to handle dangerous situations safely.\n\nWe maintain a dedicated storm response team familiar with Charlotte's tree species and common failure points during hurricanes and ice storms. After securing the immediate hazard, we assess remaining trees for hidden damage that could cause future problems.\n\nFor homeowners associations in Huntersville and property managers uptown, we offer priority response contracts that put your location first in our dispatch queue during major weather events.",
+        "process": [
+          "Step 1: Immediate hazard assessment",
+          "Step 2: Safe tree stabilization",
+          "Step 3: Debris clearance for access",
+          "Step 4: Follow-up health evaluation"
+        ],
+        "benefits": [
+          "Prevents further property damage",
+          "Restores safe access quickly",
+          "Identifies hidden tree stress",
+          "Works directly with insurance"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a tree emergency?",
+            "answer": "Any situation where a tree or limb threatens people, structures, or critical access routes qualifies for immediate response."
+          },
+          {
+            "question": "Do you work with insurance companies?",
+            "answer": "Yes, we document all storm damage thoroughly and have experience working with major insurers throughout Mecklenburg County."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Storm Damage Cleanup",
+        "text": "Horizon had my South End property cleared of fallen branches within 3 hours of last April's hailstorm. Their crew even noticed some cracked limbs that hadn't fallen yet and secured them before they could damage my roof. Professional from start to finish.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Eleanor W.",
+        "rating": 5,
+        "service": "Tree Pruning",
+        "text": "The team did an amazing job pruning our mature magnolias in Myers Park. They understood exactly how much to trim to maintain the trees' shape while improving airflow. Cleaner job than any other service we've used in 20 years.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Derrick S.",
+        "rating": 5,
+        "service": "Stump Grinding",
+        "text": "Had 4 large oak stumps ground down in my Huntersville backyard. They left the area perfectly level and even recommended some soil amendments for the clay before we sodded. No mess left behind - would definitely hire again.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Tree Removal",
+        "text": "Removed a dangerous leaning pine near our Concord home with impressive precision. The crane operator dropped every piece exactly where planned - didn't touch a single shrub. Their insurance documentation helped our claim process go smoothly.",
+        "date": "2024-12-05"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Tree Planting",
+        "text": "Planted 3 red maples along our Fort Mill property line last fall. Horizon's team amended the clay soil properly and staked them securely. All three came through their first Carolina summer beautifully with their recommended watering schedule.",
+        "date": "2024-11-18"
+      },
+      {
+        "name": "Janet K.",
+        "rating": 5,
+        "service": "Emergency Tree Services",
+        "text": "When an ice storm split our willow oak in Dilworth, Horizon responded at 2 AM to remove the section threatening our power line. Their 24/7 dispatcher kept us updated throughout, and the daytime crew returned to finish the job safely once temperatures rose.",
+        "date": "2024-10-22"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Charlotte Tree Service | Horizon Tree Care Experts",
+        "description": "Trusted tree removal and care serving Charlotte, NC and surrounding areas. Emergency storm response, pruning, and planting specialists since 2012."
+      },
+      "about": {
+        "title": "About Horizon Tree Service | Charlotte's Local Experts",
+        "description": "Learn about Horizon Tree Service's Charlotte roots and commitment to proper tree care in Mecklenburg County's unique climate and soil conditions."
+      },
+      "services": {
+        "title": "Charlotte Tree Services | Removal, Pruning & Storm Care",
+        "description": "Complete tree care services for Charlotte homeowners, including emergency storm cleanup, precision pruning, and clay soil planting expertise."
+      },
+      "contact": {
+        "title": "Contact Horizon Tree Service | Charlotte Tree Care",
+        "description": "Get in touch with Charlotte's trusted tree service for estimates, emergency calls, or general questions about your property's trees."
+      },
+      "reviews": {
+        "title": "Horizon Tree Service Reviews | Charlotte, NC",
+        "description": "See what Charlotte area homeowners say about Horizon Tree Service's storm response, pruning, and removal work across Mecklenburg County."
+      },
+      "service-areas": {
+        "title": "Charlotte Tree Service Areas | Horizon Local Coverage",
+        "description": "Horizon Tree Service proudly serves Huntersville, Matthews, Gastonia and all Charlotte metro areas with specialized tree care solutions."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Huntersville",
+        "slug": "huntersville-nc",
+        "state": "NC",
+        "content": "Horizon Tree Service proudly serves Huntersville, NC, a thriving suburban community with tree-lined neighborhoods developed primarily in the 1990s and 2000s. Our team specializes in maintaining the health and beauty of your trees, whether it's pruning overgrown branches, removing hazardous limbs, or providing emergency storm cleanup. With Huntersville's hot, humid summers, proper tree care is essential to prevent disease and ensure longevity. We understand the unique needs of the area's mature oaks, maples, and pines and offer tailored solutions to keep your property safe and attractive.",
+        "localContext": "Huntersville features well-planned suburban developments with a mix of young and maturing trees.",
+        "nearbyAreas": [
+          "Cornelius",
+          "Davidson",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Concord",
+        "slug": "concord-nc",
+        "state": "NC",
+        "content": "Horizon Tree Service is your trusted tree care provider in Concord, NC, where family homes from the 1980s and 1990s are surrounded by lush greenery. Our services include tree trimming, stump grinding, and complete tree removal to protect your property from storm damage. Concord's hot, humid climate can stress trees, making regular maintenance critical. Whether you're dealing with an aging willow or a towering pine, our certified arborists ensure professional care with minimal disruption to your yard.",
+        "localContext": "Concord is known for its spacious lots and mature trees, requiring expert care to maintain curb appeal.",
+        "nearbyAreas": [
+          "Kannapolis",
+          "Harrisburg",
+          "Midland"
+        ]
+      },
+      {
+        "city": "Matthews",
+        "slug": "matthews-nc",
+        "state": "NC",
+        "content": "Serving Matthews, NC, Horizon Tree Service helps homeowners in established 1970s-1980s suburbs preserve their tree canopies. From routine pruning to emergency removals after severe weather, we prioritize safety and aesthetics. Matthews' hot summers demand vigilant tree care to prevent pests and decay. Our team is familiar with the area's mix of hardwoods and evergreens, offering eco-friendly solutions to keep your landscape thriving.",
+        "localContext": "Matthews boasts older, well-shaded neighborhoods with trees that need experienced hands for maintenance.",
+        "nearbyAreas": [
+          "Mint Hill",
+          "Stallings",
+          "Indian Trail"
+        ]
+      },
+      {
+        "city": "Fort Mill",
+        "slug": "fort-mill-nc",
+        "state": "NC",
+        "content": "Horizon Tree Service provides top-tier tree care in Fort Mill, NC, where newer planned communities (2000s-2020s) benefit from our expertise in young tree maintenance. Proper pruning and disease prevention are key in Fort Mill's humid climate to ensure healthy growth. Whether you need shaping for ornamental trees or removal of storm-damaged limbs, our team delivers efficient, professional service tailored to your neighborhood's needs.",
+        "localContext": "Fort Mill's newer developments feature carefully landscaped trees that require strategic care.",
+        "nearbyAreas": [
+          "Tega Cay",
+          "Rock Hill",
+          "Pineville"
+        ]
+      },
+      {
+        "city": "Gastonia",
+        "slug": "gastonia-nc",
+        "state": "NC",
+        "content": "In Gastonia, NC, Horizon Tree Service assists homeowners with 1960s-1970s working-class properties by offering affordable, reliable tree care. From stump grinding to full removals, we handle aging trees prone to storm damage in Gastonia's humid summers. Our team respects the character of these neighborhoods while ensuring safety and cleanliness. Let us help you manage your yard's trees with care and precision.",
+        "localContext": "Gastonia's older homes often have large, neglected trees that need professional attention.",
+        "nearbyAreas": [
+          "Belmont",
+          "Mount Holly",
+          "Dallas"
+        ]
+      },
+      {
+        "city": "Cornelius",
+        "slug": "cornelius-nc",
+        "state": "NC",
+        "content": "Horizon Tree Service serves Cornelius, NC, a lakeside community with a mix of mature and newly planted trees. Our arborists specialize in preserving the health of your trees while enhancing your lakefront or suburban property's beauty. Cornelius' humid summers can lead to fungal growth and pest infestations, making regular inspections vital. Trust us for expert trimming, removals, and preventative care.",
+        "localContext": "Cornelius' proximity to Lake Norman means trees often require wind-resistant pruning.",
+        "nearbyAreas": [
+          "Davidson",
+          "Huntersville",
+          "Mooresville"
+        ]
+      },
+      {
+        "city": "Rock Hill",
+        "slug": "rock-hill-nc",
+        "state": "NC",
+        "content": "Horizon Tree Service is proud to serve Rock Hill, NC, where historic and modern homes alike benefit from our comprehensive tree care. Whether you need routine maintenance or emergency storm cleanup, our team is equipped to handle Rock Hill's hot, humid climate challenges. We prioritize safety and sustainability, ensuring your trees remain an asset to your property.",
+        "localContext": "Rock Hill's diverse tree canopy includes both aging hardwoods and newly planted varieties.",
+        "nearbyAreas": [
+          "Fort Mill",
+          "Tega Cay",
+          "York"
+        ]
+      },
+      {
+        "city": "Mint Hill",
+        "slug": "mint-hill-nc",
+        "state": "NC",
+        "content": "Horizon Tree Service provides expert tree care in Mint Hill, NC, where semi-rural and suburban properties feature sprawling oaks and pines. Our services include hazardous limb removal, stump grinding, and disease management to combat Mint Hill's humid summer conditions. Whether you're on a large lot or in a tight-knit neighborhood, we deliver personalized solutions for your trees.",
+        "localContext": "Mint Hill's mix of open land and older suburbs requires adaptable tree care strategies.",
+        "nearbyAreas": [
+          "Matthews",
+          "Indian Trail",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Davidson",
+        "slug": "davidson-nc",
+        "state": "NC",
+        "content": "Horizon Tree Service serves Davidson, NC, a charming town with historic homes and carefully maintained green spaces. Our arborists understand the importance of preserving Davidson's tree-lined streets and private yards. From pruning ornamental trees to removing storm-damaged specimens, we offer meticulous care tailored to Davidson's humid climate and aesthetic standards.",
+        "localContext": "Davidson's blend of old-growth trees and new plantings demands balanced care.",
+        "nearbyAreas": [
+          "Cornelius",
+          "Huntersville",
+          "Mooresville"
+        ]
+      },
+      {
+        "city": "Indian Trail",
+        "slug": "indian-trail-nc",
+        "state": "NC",
+        "content": "Horizon Tree Service is your go-to tree care provider in Indian Trail, NC, where growing families and mature trees coexist. Our team handles everything from routine trimming to emergency removals, ensuring your property stays safe and beautiful. Indian Trail's hot summers can stress trees, making proactive care essential. Let us help you maintain a healthy, vibrant landscape.",
+        "localContext": "Indian Trail's expanding neighborhoods feature a mix of young and established trees.",
+        "nearbyAreas": [
+          "Matthews",
+          "Monroe",
+          "Mint Hill"
+        ]
+      },
+      {
+        "city": "Monroe",
+        "slug": "monroe-nc",
+        "state": "NC",
+        "content": "Horizon Tree Service proudly serves Monroe, NC, offering expert tree care for both historic districts and newer subdivisions. Our services include crown thinning, deadwood removal, and stump grinding to keep Monroe's trees resilient in humid summers. Whether you're dealing with an ancient oak or a young planting, our team provides reliable, professional care.",
+        "localContext": "Monroe's varied tree canopy reflects its blend of historic and modern developments.",
+        "nearbyAreas": [
+          "Waxhaw",
+          "Indian Trail",
+          "Unionville"
+        ]
+      },
+      {
+        "city": "Waxhaw",
+        "slug": "waxhaw-nc",
+        "state": "NC",
+        "content": "Horizon Tree Service provides specialized tree care in Waxhaw, NC, where picturesque properties and dense tree cover define the landscape. Our arborists excel in preserving Waxhaw's natural beauty while addressing safety concerns like overhanging limbs or diseased trees. With hot, humid summers posing challenges, regular maintenance is key—trust us to keep your trees healthy and your property safe.",
+        "localContext": "Waxhaw's rural charm and wooded lots require careful, knowledgeable tree care.",
+        "nearbyAreas": [
+          "Marvin",
+          "Monroe",
+          "Indian Trail"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "tree-removal": "/images/service-tree-removal.webp",
+      "storm-damage-cleanup": "/images/service-storm-damage-cleanup.webp",
+      "tree-pruning": "/images/service-tree-pruning.webp",
+      "stump-grinding": "/images/service-stump-grinding.webp",
+      "tree-planting": "/images/service-tree-planting.webp",
+      "emergency-tree-services": "/images/service-emergency-tree-services.webp"
+    },
+    "servicesResponsive": {
+      "tree-removal": {
+        "src": "/images/service-tree-removal.webp",
+        "srcset": "/images/service-tree-removal-400w.webp 400w, /images/service-tree-removal-800w.webp 800w, /images/service-tree-removal-1200w.webp 1200w, /images/service-tree-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "storm-damage-cleanup": {
+        "src": "/images/service-storm-damage-cleanup.webp",
+        "srcset": "/images/service-storm-damage-cleanup-400w.webp 400w, /images/service-storm-damage-cleanup-800w.webp 800w, /images/service-storm-damage-cleanup-1200w.webp 1200w, /images/service-storm-damage-cleanup.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tree-pruning": {
+        "src": "/images/service-tree-pruning.webp",
+        "srcset": "/images/service-tree-pruning-400w.webp 400w, /images/service-tree-pruning-800w.webp 800w, /images/service-tree-pruning-1200w.webp 1200w, /images/service-tree-pruning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stump-grinding": {
+        "src": "/images/service-stump-grinding.webp",
+        "srcset": "/images/service-stump-grinding-400w.webp 400w, /images/service-stump-grinding-800w.webp 800w, /images/service-stump-grinding-1200w.webp 1200w, /images/service-stump-grinding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tree-planting": {
+        "src": "/images/service-tree-planting.webp",
+        "srcset": "/images/service-tree-planting-400w.webp 400w, /images/service-tree-planting-800w.webp 800w, /images/service-tree-planting-1200w.webp 1200w, /images/service-tree-planting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-tree-services": {
+        "src": "/images/service-emergency-tree-services.webp",
+        "srcset": "/images/service-emergency-tree-services-400w.webp 400w, /images/service-emergency-tree-services-800w.webp 800w, /images/service-emergency-tree-services-1200w.webp 1200w, /images/service-emergency-tree-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}

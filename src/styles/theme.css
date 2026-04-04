@@ -1,0 +1,30 @@
+:root {
+  --color-primary: #166534;
+  --color-primary-dark: #052E16;
+  --color-primary-light: #c5d9cc;
+  --color-secondary: #13562c;
+  --color-accent: #84CC16;
+  --color-background: #FFFFFF;
+  --color-background-alt: #166534;
+  --color-surface: #F4F6F8;
+  --color-text: #1A1A2E;
+  --color-text-light: #4A5568;
+  --color-text-on-dark: #FFFFFF;
+  --color-border: #E5E7EB;
+  --font-heading: 'Merriweather', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+  --font-heading-weight: 700;
+  --font-body-weight: 400;
+  --heading-style: normal;
+  --type-scale: 1.25;
+  --radius: 6px;
+  --radius-button: 6px;
+  --radius-card: 10px;
+  --section-padding: 4.5rem;
+  --spacing-scale: 1;
+  --heading-scale: 1.2;
+  --shadow-intensity: 0.75;
+  --anim-distance: 24px;
+  --anim-duration: 0.6s;
+  --anim-stagger: 80ms;
+}
